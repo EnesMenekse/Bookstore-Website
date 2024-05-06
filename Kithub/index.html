@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>KitHub</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo"><i class="fa-solid fa-atom"></i>KitHub</a>
+
+        <form action="" class="search-form">
+          <input type="search" placeholder="Arama yapınız" class="search-box" />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <div id="search-btn" class="fas fa-search"></div>
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-shopping-cart"></a>
+          <div id="login-btn" class="fas fa-user"></div>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+          <a href="#home">anasayfa</a>
+          <a href="#featured">Çok satanlar</a>
+          <a href="#arrivals">yeni Gelenler</a>
+          <!-- <a href="#reviews">reviews</a>
+          <a href="#blogs">blogs</a> -->
+        </nav>
+      </div>
+    </header>
+
+    <!-- Login Form -->
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+      <form action="">
+        <h3>Sign in</h3>
+        <span>username</span>
+        <input
+          type="email"
+          name=""
+          placeholder="enter your email"
+          class="box"
+        />
+        <span>password</span>
+        <input type="password" class="box" placeholder="enter your password" />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn" />
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create one</a></p>
+      </form>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="row">
+        <div class="content">
+          <h3>En popüler Kitaplar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consequuntur doloribus necessitatibus placeat suscipit ullam! Eius
+            molestias enim, suscipit error distinctio molestiae eligendi fugit?
+            Error, ullam.
+          </p>
+          <a href="#" class="btn">Şimdi Satın al</a>
+        </div>
+
+        <div class="swiper books-slider">
+          <div class="swiper-wrapper">
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b1.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b2.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b3.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b4.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b5.jpg" alt=""
+            /></a>
+            <a href="#" class="swiper-slide"
+              ><img src="Images/b6.jpg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- İcons -->
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+          <h3>ücretsiz kargo</h3>
+          <p>200 lira üstünde ücretsiz kargo</p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+          <h3>Güvenli ödeme</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+          <h3>Kolay İade</h3>
+          <p>2 hafta içinde İade</p>
+        </div>
+      </div>
+      <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+          <h3>7/24 destek</h3>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Section -->
+
+    <seciton class="featured" id="featured">
+      <h1 class="heading"><span>çok satanlar</span></h1>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>$175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺<span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺<span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <div class="icons">
+              <a href="#" class="fas fa-search"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+              <img src="Images/b2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>featured books</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <a href="#" class="btn">add to cart</a>
+            </div>
+          </div>
+          <!-- alt -->
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </seciton>
+
+    <!-- Newsletter section -->
+    <section class="newsletter">
+      <form action="">
+        <h3>İndirimli ürünlerden haberdar olmak İçin</h3>
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="e-mailini giriş yap"
+          class="box"
+        />
+        <input type="submit" value="subscribe" class="btn" />
+      </form>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="arrivals" id="arrivals">
+      <h1 class="heading"><span>yeni gelenler</span></h1>
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="swiper arrivals-slider">
+        <div class="swiper-wrapper">
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>125₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺ <span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="swiper-slide box">
+            <div class="image">
+              <img src="Images/b6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>new arrivals</h3>
+              <div class="price">125₺<span>175₺</span></div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+
+    <section class="footer">
+      <div class="box-container">
+        <!-- <div class="box">
+          <h3>our locations</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>india</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>USA</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>russia</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>france</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>japan</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>africa</a>
+        </div>-->
+        <!--
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>Anasayfa</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Yeni gelenler</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Çok satanlar</a>
+        </div>
+        -->
+        <div class="box">
+          <h3>Linkler</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>account info</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>ordered items</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>payment method</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>services</a>
+        </div>
+        <div class="box">
+          <h3>İletişim</h3>
+          <a href="#"><i class="fas fa-phone"></i>+90 553 797 6519</a>
+          <a href="#"><i class="fas fa-envelope"></i>enesmenkse00@gmail.com</a>
+        </div>
+      </div>
+      <div class="share">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <div class="credit">
+        created by <span>Enes Menekşe</span> | all right reserved
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
